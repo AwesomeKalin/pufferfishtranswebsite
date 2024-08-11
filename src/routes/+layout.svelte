@@ -78,7 +78,7 @@
 		</nav>
 
 		<main class="container mx-auto px-4 py-8">
-			<slot></slot>
+			<div class="mx-auto max-w-3xl rounded-lg bg-blue-900 bg-opacity-90 p-8 shadow-lg"><slot></slot></div>
 		</main>
 	</div>
 

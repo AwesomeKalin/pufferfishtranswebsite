@@ -16,7 +16,7 @@
 }
 
 .ocean-bg {
-    background-image: url('lib/images/background.webp');
+    background-image: url('/background.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
