@@ -2,7 +2,7 @@
 	import '../app.css';
 	import { onMount } from 'svelte';
 
-	let pufferfish: { style: { transform: string; }; };
+	let pufferfish: any;
 
 	onMount(() => {
 		const handleMouseMove = (e: { clientX: number; clientY: number }) => {
