@@ -13,6 +13,7 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter({
 			fallback: '404.html',
+			base: `https://pufferfishtrans.awesomekalin.eu.org`
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH,
