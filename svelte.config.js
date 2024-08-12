@@ -12,10 +12,10 @@ const config = {
 		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter({
-			fallback: `${process.argv.includes('dev') ? '' : process.env.BASE_PATH}/404.html`,
+			fallback: 'https://pufferfishtrans.awesomekalin.eu.org/404.html',
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH,
+			base: 'https://pufferfishtrans.awesomekalin.eu.org/',
 		},
 	},
 };
