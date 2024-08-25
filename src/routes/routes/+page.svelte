@@ -6,7 +6,7 @@
 <ul class="mb-6 list-disc pl-6">
     <li>Type: Bus</li>
     <li>From: Atlantis Racecourse</li>
-    <li>To: Bowberry International</li>
+    <li>To: Harrowberry</li>
     <li>Via: Halkound</li>
     <li>Vehicle on Route: None currently!</li>
 </ul>
