@@ -63,6 +63,12 @@
 					</li>
 					<li>
 						<a
+							href="/real-estate"
+							class="text-white transition-colors duration-300 hover:text-yellow-500">Real Estate</a
+						>
+					</li>
+					<li>
+						<a
 							href="/about"
 							class="text-white transition-colors duration-300 hover:text-yellow-500">About Us</a
 						>
