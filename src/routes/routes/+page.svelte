@@ -9,4 +9,12 @@
     <li>To: Harrowberry</li>
     <li>Via: Halkound</li>
     <li>Vehicle on Route: None currently!</li>
+</ul><br />
+<h3 class="mb-3 text-2xl font-semibold">PT2:</h3>
+<ul class="mb-6 list-disc pl-6">
+    <li>Type: Bus</li>
+    <li>From: Atlantis Racecourse</li>
+    <li>To: Spawn</li>
+    <li>Via: Atlantis, Airport</li>
+    <li>Vehicle on Route: None currently!</li>
 </ul>

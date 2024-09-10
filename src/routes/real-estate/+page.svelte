@@ -11,8 +11,8 @@
 <ul class="mb-6 list-disc pl-6">
 	<li>Small, unfurnished house for 1</li>
 	<li>Surrounded by water</li>
-	<li>Nearest Bus Stop and Routes: Atlantis Racecourse, No Routes Currently</li>
-	<li>Nearest Train Station and Routes: Atlantis, Blue Line from MangoRail</li>
+	<li>Nearest Bus Stop and Routes: Atlantis, No Routes Currently</li>
+	<li>Nearest Train Station and Routes: Airport, Blue Line from MangoRail</li>
 	<li>Buy or Rent: Best Offer</li>
 	<li>
 		Purchase by talking to one of our representatives on the <a
