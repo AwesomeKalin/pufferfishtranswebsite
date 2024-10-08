@@ -1,15 +1,15 @@
 <h2 class="mb-4 text-center text-3xl font-bold">Welcome to Pufferfish Transport!</h2>
 <p class="mb-6 text-center">
-	Swim through the blocky seas of Project Cyan with ease and style. Our pufferfish-powered
+	Swim through the blocky seas of PurpleMTR with ease and style. Our pufferfish-powered
 	transportation system is the most efficient way to travel across the server!
 </p>
 
 <div class="mb-6 rounded-lg bg-teal-700 p-4">
 	<p class="text-sm italic">
-		<span class="font-bold">Server Info:</span> Project Cyan is a Minecraft server utilizing the MTR
+		<span class="font-bold">Server Info:</span> PurpleMTR is a Minecraft server utilizing the MTR
 		(Minecraft Transit Railway) mod along with various other mods to enhance your transportation and
 		building experience!
-		<a href="https://discord.gg/tCNHuPhzEz" class="underline">Join the official discord server today!</a>
+		<a href="https://discord.gg/Be72D8EVd8" class="underline">Join the official discord server today!</a>
 	</p>
 </div>
 

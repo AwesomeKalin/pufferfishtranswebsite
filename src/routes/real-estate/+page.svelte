@@ -16,8 +16,8 @@
 	<li>Buy or Rent: Best Offer</li>
 	<li>
 		Purchase by talking to one of our representatives on the <a
-			href="https://discord.gg/tCNHuPhzEz"
-			class="underline">Project Cyan Discord Server</a
+			href="https://discord.gg/Be72D8EVd8"
+			class="underline">PurpleMTR Discord Server</a
 		>
 	</li>
 </ul>
