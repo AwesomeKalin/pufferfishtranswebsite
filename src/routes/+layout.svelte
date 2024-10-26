@@ -1,6 +1,11 @@
 <script lang="ts">
 	import '../app.css';
 	import { onMount } from 'svelte';
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
 
 	let pufferfish: any;
 
@@ -84,7 +89,7 @@
 		</nav>
 
 		<main class="container mx-auto px-4 py-8">
-			<div class="mx-auto max-w-3xl rounded-lg bg-blue-900 bg-opacity-90 p-8 shadow-lg"><slot></slot></div>
+			<div class="mx-auto max-w-3xl rounded-lg bg-blue-900 bg-opacity-90 p-8 shadow-lg">{@render children?.()}</div>
 		</main>
 	</div>
 
