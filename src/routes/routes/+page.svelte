@@ -7,6 +7,14 @@
     <li>Via: Avantra Pines</li>
     <li>Vehicle on Route: Yutong U12</li>
 </ul><br />
+<h3 class="mb-3 text-2xl font-semibold">HSP1:</h3>
+<ul class="mb-6 list-disc pl-6">
+    <li>Type: High Speed Rail</li>
+    <li>From: Spawn HSR Terminal</li>
+    <li>To: Purple Nature Park</li>
+    <li>Via: N/A</li>
+    <li>Vehicle on Route: Class 802</li>
+</ul><br />
 
 <h2 class="mb-4 text-center text-3xl font-bold">Routes in Construction:</h2>
 <h3 class="mb-3 text-2xl font-semibold">PT2:</h3>
