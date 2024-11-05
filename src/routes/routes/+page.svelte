@@ -1,5 +1,7 @@
 <script lang="ts">
     import routemap from '$lib/images/2024/11/routemap.png?enhanced';
+    import pt1 from '$lib/images/2024/11/pt1.png?enhanced';
+    import hsp1 from '$lib/images/2024/11/hsp1.png?enhanced';
 </script>
 
 <enhanced:img src={routemap} alt="Route Map"></enhanced:img>
@@ -12,7 +14,9 @@
     <li>To: Bayswater</li>
     <li>Via: Avantra Pines</li>
     <li>Vehicle on Route: Yutong U12</li>
-</ul><br />
+</ul>
+<enhanced:img src={pt1} alt="PT1 Map" class="w-1/2"></enhanced:img>
+<br />
 <h3 class="mb-3 text-2xl font-semibold">HSP1:</h3>
 <ul class="mb-6 list-disc pl-6">
     <li>Type: High Speed Rail</li>
@@ -20,8 +24,9 @@
     <li>To: Purple Nature Park</li>
     <li>Via: N/A</li>
     <li>Vehicle on Route: Class 802</li>
-</ul><br />
-
+</ul>
+<enhanced:img src={hsp1} alt="HSP1 Map"></enhanced:img>
+<br />
 <h2 class="mb-4 text-center text-3xl font-bold">Routes in Construction:</h2>
 <h3 class="mb-3 text-2xl font-semibold">PT2:</h3>
 <ul class="mb-6 list-disc pl-6">
