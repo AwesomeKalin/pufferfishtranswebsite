@@ -1,5 +1,5 @@
 <script lang="ts">
-    import AtlanticStreet from '$lib/images/1atlanticstreet.png?enhanced';
+    import AtlanticStreet from '$lib/images/2024/08/1atlanticstreet.png?enhanced';
 </script>
 
 <h1 class="mb-5 text-center text-5xl font-bold">

@@ -1,3 +1,9 @@
+<script lang="ts">
+    import routemap from '$lib/images/2024/11/routemap.png?enhanced';
+</script>
+
+<enhanced:img src={routemap} alt="Route Map"></enhanced:img>
+<br />
 <h2 class="mb-4 text-center text-3xl font-bold">Operational routes:</h2>
 <h3 class="mb-3 text-2xl font-semibold">PT1:</h3>
 <ul class="mb-6 list-disc pl-6">
