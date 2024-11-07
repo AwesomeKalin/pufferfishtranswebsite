@@ -9,6 +9,8 @@
 
 	let pufferfish: any;
 
+	let menuOpen: boolean = $state(false);
+
 	onMount(() => {
 		const handleMouseMove = (e: { clientX: number; clientY: number }) => {
 			const x = e.clientX / window.innerWidth;
@@ -48,48 +50,134 @@
 			</div>
 		</header>
 
-		<nav class="bg-teal-400 py-4">
-			<div class="container mx-auto px-4">
-				<ul class="flex justify-center space-x-6">
-					<li>
-						<a href="/" class="text-white transition-colors duration-300 hover:text-yellow-500">Home</a>
-					</li>
-					<li>
-						<a
-							href="/routes"
-							class="text-white transition-colors duration-300 hover:text-yellow-500">Routes</a
-						>
-					</li>
-					<li>
-						<a
-							href="/tickets"
-							class="text-white transition-colors duration-300 hover:text-yellow-500">Tickets</a
-						>
-					</li>
-					<li>
-						<a
-							href="/real-estate"
-							class="text-white transition-colors duration-300 hover:text-yellow-500">Real Estate</a
-						>
-					</li>
-					<li>
-						<a
-							href="/about"
-							class="text-white transition-colors duration-300 hover:text-yellow-500">About Us</a
-						>
-					</li>
-					<li>
-						<a
-							href="/contact"
-							class="text-white transition-colors duration-300 hover:text-yellow-500">Contact</a
-						>
-					</li>
-				</ul>
-			</div>
-		</nav>
+		<!--Desktop Menu-->
+		<div class="hidden md:block">
+			<nav class="bg-teal-400 py-4">
+				<div class="container mx-auto px-4">
+					<ul class="flex justify-center space-x-6">
+						<li>
+							<a href="/" class="text-white transition-colors duration-300 hover:text-yellow-500"
+								>Home</a
+							>
+						</li>
+						<li>
+							<a
+								href="/routes"
+								class="text-white transition-colors duration-300 hover:text-yellow-500">Routes</a
+							>
+						</li>
+						<li>
+							<a
+								href="/stations"
+								class="text-white transition-colors duration-300 hover:text-yellow-500">Stations</a
+							>
+						</li>
+						<li>
+							<a
+								href="/tickets"
+								class="text-white transition-colors duration-300 hover:text-yellow-500">Tickets</a
+							>
+						</li>
+						<li>
+							<a
+								href="/real-estate"
+								class="text-white transition-colors duration-300 hover:text-yellow-500"
+								>Real Estate</a
+							>
+						</li>
+						<li>
+							<a
+								href="/about"
+								class="text-white transition-colors duration-300 hover:text-yellow-500">About Us</a
+							>
+						</li>
+						<li>
+							<a
+								href="/contact"
+								class="text-white transition-colors duration-300 hover:text-yellow-500">Contact</a
+							>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<!--Mobile Menu-->
+		<div class="visible md:hidden">
+			{#if !menuOpen}
+				<div class="container mx-auto flex justify-center space-x-6 bg-teal-400 px-4 py-4">
+					<button
+						onclick={() => {
+							menuOpen = true;
+						}}>Open Menu</button
+					>
+				</div>
+			{/if}
+			{#if menuOpen}
+				<div class="container mx-auto flex justify-center space-x-6 bg-teal-400 px-4 py-4">
+					<button
+						onclick={() => {
+							menuOpen = false;
+						}}>Close Menu</button
+					>
+				</div>
+				<nav class="bg-teal-400 py-4">
+					<div class="container mx-auto px-4">
+						<ul class="flex list-none flex-col justify-center space-y-4 text-lg leading-loose">
+							<li class="pl-4">
+								<a href="/" class="text-white transition-colors duration-300 hover:text-yellow-500"
+									>Home</a
+								>
+							</li>
+							<li class="pl-4">
+								<a
+									href="/routes"
+									class="text-white transition-colors duration-300 hover:text-yellow-500">Routes</a
+								>
+							</li>
+							<li class="pl-4">
+								<a
+									href="/stations"
+									class="text-white transition-colors duration-300 hover:text-yellow-500"
+									>Stations</a
+								>
+							</li>
+							<li class="pl-4">
+								<a
+									href="/tickets"
+									class="text-white transition-colors duration-300 hover:text-yellow-500">Tickets</a
+								>
+							</li>
+							<li class="pl-4">
+								<a
+									href="/real-estate"
+									class="text-white transition-colors duration-300 hover:text-yellow-500"
+									>Real Estate</a
+								>
+							</li>
+							<li class="pl-4">
+								<a
+									href="/about"
+									class="text-white transition-colors duration-300 hover:text-yellow-500"
+									>About Us</a
+								>
+							</li>
+							<li class="pl-4">
+								<a
+									href="/contact"
+									class="text-white transition-colors duration-300 hover:text-yellow-500">Contact</a
+								>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			{/if}
+		</div>
 
 		<main class="container mx-auto px-4 py-8">
-			<div class="mx-auto max-w-3xl rounded-lg bg-blue-900 bg-opacity-90 p-8 shadow-lg">{@render children?.()}</div>
+			<div class="mx-auto max-w-3xl rounded-lg bg-blue-900 bg-opacity-90 p-8 shadow-lg">
+				{@render children?.()}
+			</div>
 		</main>
 	</div>
 
