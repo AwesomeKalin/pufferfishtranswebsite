@@ -9,7 +9,9 @@
 		<span class="font-bold">Server Info:</span> PurpleMTR is a Minecraft server utilizing the MTR
 		(Minecraft Transit Railway) mod along with various other mods to enhance your transportation and
 		building experience!
-		<a href="https://discord.gg/Be72D8EVd8" class="underline">Join the official discord server today!</a>
+		<a href="https://discord.gg/Be72D8EVd8" class="underline"
+			>Join the official discord server today!</a
+		>
 	</p>
 </div>
 
@@ -45,5 +47,9 @@
 </ol>
 <p class="text-sm italic">
 	Note: Remember to keep your inventory organized. Our pufferfish are curious and might try to
-	"borrow" shiny objects! DISCLAIMER: This site is partly designed by AI.
+	"borrow" shiny objects! DISCLAIMER: This site is partly designed by AI.<br />This website is open
+	source and is avaliable at
+	<a href="https://github.com/AwesomeKalin/pufferfishtranswebsite" target="_blank" class="underline"
+		>https://github.com/AwesomeKalin/pufferfishtranswebsite</a
+	>
 </p>
