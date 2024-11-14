@@ -1,11 +1,11 @@
 <script lang="ts">
-    import routemap from '$lib/images/2024/11/routemap.2.png?enhanced';
+    import routemap from '$lib/images/2024/11/routemap.2.png?enhanced?w=704';
     import pt1 from '$lib/images/2024/11/pt1.2.png?enhanced';
     import hsp1 from '$lib/images/2024/11/hsp1.2.png?enhanced';
     import spawnlink from '$lib/images/2024/11/spawnlink.png?enhanced';
 </script>
 
-<enhanced:img src={routemap} alt="Route Map" sizes="(max-width:720px) 704px></enhanced:img>
+<enhanced:img src={routemap} alt="Route Map" sizes="(max-width:720px) 704px"></enhanced:img>
 <br />
 <h2 class="mb-4 text-center text-3xl font-bold">Operational routes:</h2>
 <h3 class="mb-3 text-2xl font-semibold">PT1:</h3>
