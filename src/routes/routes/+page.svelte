@@ -1,5 +1,5 @@
 <script lang="ts">
-    import routemap from '$lib/images/2024/11/routemap.2.png?enhanced?w=704';
+    import routemap from '$lib/images/2024/11/routemap.2.png?enhanced';
     import pt1 from '$lib/images/2024/11/pt1.2.png?enhanced';
     import hsp1 from '$lib/images/2024/11/hsp1.2.png?enhanced';
     import spawnlink from '$lib/images/2024/11/spawnlink.png?enhanced';
