@@ -5,7 +5,7 @@
     import spawnlink from '$lib/images/2024/11/spawnlink.png?enhanced';
 </script>
 
-<enhanced:img src={routemap} alt="Route Map"></enhanced:img>
+<enhanced:img src={routemap} alt="Route Map" sizes="min(704px, 100vw), 100vw"></enhanced:img>
 <br />
 <h2 class="mb-4 text-center text-3xl font-bold">Operational routes:</h2>
 <h3 class="mb-3 text-2xl font-semibold">PT1:</h3>
