@@ -25,8 +25,4 @@
 <enhanced:img
 	src={AtlanticStreet}
 	alt="1 Atlantic Street"
-	sizes="(min-width: 1024px) 704px, (min-width: 780px) 661px, (min-width: 680px) 544px, calc(94.44vw - 79px)"
 ></enhanced:img>
-<a href={AtlanticStreet.img.src} class="text-sm text-green-500 underline" target="_blank"
-	>View Original</a
->

@@ -12,10 +12,7 @@
 <enhanced:img
 	src={routemap}
 	alt="Route Map"
-	sizes="(min-width: 1024px) 704px, (min-width: 780px) 661px, (min-width: 680px) 544px, calc(94.44vw - 79px)"
 ></enhanced:img>
-<a href={routemap.img.src} class="text-sm text-green-500 underline" target="_blank">View Original</a
->
 <br />
 <h2 class="mb-4 text-center text-3xl font-bold">Operational routes:</h2>
 <h3 class="mb-3 text-2xl font-semibold">PT1:</h3>
@@ -30,10 +27,7 @@
 	src={pt1}
 	alt="PT1 Map"
 	class="w-1/2"
-	sizes="(min-width: 1024px) 352px, (min-width: 780px) 330px, (min-width: 680px) 272px, calc(47.22vw - 40px)"
 ></enhanced:img>
-<a href={pt1.img.src} class="text-sm text-green-500 underline" target="_blank">View Original</a>
-<br />
 <h3 class="mb-3 text-2xl font-semibold">HSP1:</h3>
 <ul class="mb-6 list-disc pl-6">
 	<li>Type: High Speed Rail</li>
@@ -45,9 +39,7 @@
 <enhanced:img
 	src={hsp1}
 	alt="HSP1 Map"
-	sizes="(min-width: 1024px) 704px, (min-width: 780px) 661px, (min-width: 680px) 544px, calc(94.44vw - 79px)"
 ></enhanced:img>
-<a href={hsp1.img.src} class="text-sm text-green-500 underline" target="_blank">View Original</a>
 <br />
 <h3 class="mb-3 text-2xl font-semibold">SpawnLink:</h3>
 <ul class="mb-6 list-disc pl-6">
@@ -60,11 +52,7 @@
 <enhanced:img
 	src={spawnlink}
 	alt="SpawnLink Map"
-	sizes="(min-width: 1024px) 704px, (min-width: 780px) 661px, (min-width: 680px) 544px, calc(94.44vw - 79px)"
 ></enhanced:img>
-<a href={spawnlink.img.src} class="text-sm text-green-500 underline" target="_blank"
-	>View Original</a
->
 <br />
 <h2 class="mb-4 text-center text-3xl font-bold">Routes in Construction:</h2>
 <h3 class="mb-3 text-2xl font-semibold">PT2:</h3>

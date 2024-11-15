@@ -2,24 +2,42 @@
 	import PhotoSwipeLightbox from 'photoswipe/lightbox';
 	import 'photoswipe/style.css';
 	import { onMount } from 'svelte';
-	import atlantisracecourse1 from '$lib/images/2024/11/2024-11-07_18.23.08.png?enhanced';
-	import atlantisracecourse2 from '$lib/images/2024/11/2024-11-07_18.23.19.png?enhanced';
-	import atlantisracecourse3 from '$lib/images/2024/11/2024-11-07_18.23.48.png?enhanced';
-	import avantrapines1 from '$lib/images/2024/11/2024-11-07_18.59.21.png?enhanced';
-	import avantrapines2 from '$lib/images/2024/11/2024-11-07_18.59.46.png?enhanced';
-	import avantrapines3 from '$lib/images/2024/11/2024-11-07_19.00.29.png?enhanced';
-	import newbayswater1 from '$lib/images/2024/11/2024-11-07_19.01.18.png?enhanced';
-	import newbayswater2 from '$lib/images/2024/11/2024-11-07_19.01.21.png?enhanced';
-	import newbayswater3 from '$lib/images/2024/11/2024-11-07_19.02.13.png?enhanced';
-	import newbayswater4 from '$lib/images/2024/11/2024-11-07_19.02.25.png?enhanced';
-	import spawnhsrterminal1 from '$lib/images/2024/11/2024-11-07_19.07.04.png?enhanced';
-	import spawnhsrterminal2 from '$lib/images/2024/11/2024-11-07_19.07.12.png?enhanced';
-	import spawnhsrterminal3 from '$lib/images/2024/11/2024-11-07_19.07.23.png?enhanced';
-	import purplenaturereserve1 from '$lib/images/2024/11/2024-11-07_19.10.13.png?enhanced';
-	import purplenaturereserve2 from '$lib/images/2024/11/2024-11-07_19.10.24.png?enhanced';
-	import purplenaturereserve3 from '$lib/images/2024/11/2024-11-07_19.11.19.png?enhanced';
-	import purplenaturereserve4 from '$lib/images/2024/11/2024-11-07_19.11.39.png?enhanced';
-	import purplenaturereserve5 from '$lib/images/2024/11/2024-11-07_19.11.44.png?enhanced';
+	//@ts-expect-error
+	import atlantisracecourse1 from '$lib/images/2024/11/2024-11-07_18.23.08.png?enhanced&w=1600;227;216;160;98';
+	//@ts-expect-error
+	import atlantisracecourse2 from '$lib/images/2024/11/2024-11-07_18.23.19.png?enhanced&w=1600;227;216;160;98';
+	//@ts-expect-error
+	import atlantisracecourse3 from '$lib/images/2024/11/2024-11-07_18.23.48.png?enhanced&w=1600;227;216;160;98';
+	//@ts-expect-error
+	import avantrapines1 from '$lib/images/2024/11/2024-11-07_18.59.21.png?enhanced&w=1600;227;216;160;98';
+	//@ts-expect-error
+	import avantrapines2 from '$lib/images/2024/11/2024-11-07_18.59.46.png?enhanced&w=1600;227;216;160;98';
+	//@ts-expect-error
+	import avantrapines3 from '$lib/images/2024/11/2024-11-07_19.00.29.png?enhanced&w=1600;227;216;160;98';
+	//@ts-expect-error
+	import newbayswater1 from '$lib/images/2024/11/2024-11-07_19.01.18.png?enhanced&w=1600;167;159;117;71';
+	//@ts-expect-error
+	import newbayswater2 from '$lib/images/2024/11/2024-11-07_19.01.21.png?enhanced&w=1600;167;159;117;71';
+	//@ts-expect-error
+	import newbayswater3 from '$lib/images/2024/11/2024-11-07_19.02.13.png?enhanced&w=1600;167;159;117;71';
+	//@ts-expect-error
+	import newbayswater4 from '$lib/images/2024/11/2024-11-07_19.02.25.png?enhanced&w=1600;167;159;117;71';
+	//@ts-expect-error
+	import spawnhsrterminal1 from '$lib/images/2024/11/2024-11-07_19.07.04.png?enhanced&w=1600;227;216;160;98';
+	//@ts-expect-error
+	import spawnhsrterminal2 from '$lib/images/2024/11/2024-11-07_19.07.12.png?enhanced&w=1600;227;216;160;98';
+	//@ts-expect-error
+	import spawnhsrterminal3 from '$lib/images/2024/11/2024-11-07_19.07.23.png?enhanced&w=1600;227;216;160;98';
+	//@ts-expect-error
+	import purplenaturereserve1 from '$lib/images/2024/11/2024-11-07_19.10.13.png?enhanced&w=1600;132;125;92;54';
+	//@ts-expect-error
+	import purplenaturereserve2 from '$lib/images/2024/11/2024-11-07_19.10.24.png?enhanced&w=1600;132;125;92;54';
+	//@ts-expect-error
+	import purplenaturereserve3 from '$lib/images/2024/11/2024-11-07_19.11.19.png?enhanced&w=1600;132;125;92;54';
+	//@ts-expect-error
+	import purplenaturereserve4 from '$lib/images/2024/11/2024-11-07_19.11.39.png?enhanced&w=1600;132;125;92;54';
+	//@ts-expect-error
+	import purplenaturereserve5 from '$lib/images/2024/11/2024-11-07_19.11.44.png?enhanced&w=1600;132;125;92;54';
 
 	onMount(() => {
 		let atlantisracecourse = new PhotoSwipeLightbox({
