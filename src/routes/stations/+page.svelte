@@ -57,35 +57,35 @@
 	import purplenaturereserve5 from '$lib/images/2024/11/2024-11-07_19.11.44.png?enhanced&w=132;125;92;54';
 	import purplenaturereserve5no from '$lib/images/2024/11/2024-11-07_19.11.44.png?enhanced';
 	//@ts-expect-error
-	import spawn1 from '$lib/images/2024/11/2024-11-15_20.32.57.png?enhanced&w=132;125;92;54';
-	import spawn1no from '$lib/images/2024/11/2024-11-15_20.32.57.png?enhanced';
+	import spawnwest1 from '$lib/images/2024/11/2024-11-15_20.32.57.png?enhanced&w=132;125;92;54';
+	import spawnwest1no from '$lib/images/2024/11/2024-11-15_20.32.57.png?enhanced';
 	//@ts-expect-error
-	import spawn2 from '$lib/images/2024/11/2024-11-15_20.33.07.png?enhanced&w=132;125;92;54';
-	import spawn2no from '$lib/images/2024/11/2024-11-15_20.33.07.png?enhanced';
+	import spawnwest2 from '$lib/images/2024/11/2024-11-15_20.33.07.png?enhanced&w=132;125;92;54';
+	import spawnwest2no from '$lib/images/2024/11/2024-11-15_20.33.07.png?enhanced';
 	//@ts-expect-error
-	import spawn3 from '$lib/images/2024/11/2024-11-15_20.33.15.png?enhanced&w=132;125;92;54';
-	import spawn3no from '$lib/images/2024/11/2024-11-15_20.33.15.png?enhanced';
+	import spawnwest3 from '$lib/images/2024/11/2024-11-15_20.33.15.png?enhanced&w=132;125;92;54';
+	import spawnwest3no from '$lib/images/2024/11/2024-11-15_20.33.15.png?enhanced';
 	//@ts-expect-error
-	import spawn4 from '$lib/images/2024/11/2024-11-15_20.33.34.png?enhanced&w=132;125;92;54';
-	import spawn4no from '$lib/images/2024/11/2024-11-15_20.33.34.png?enhanced';
+	import spawnwest4 from '$lib/images/2024/11/2024-11-15_20.33.34.png?enhanced&w=132;125;92;54';
+	import spawnwest4no from '$lib/images/2024/11/2024-11-15_20.33.34.png?enhanced';
 	//@ts-expect-error
-	import spawn5 from '$lib/images/2024/11/2024-11-15_20.33.51.png?enhanced&w=132;125;92;54';
-	import spawn5no from '$lib/images/2024/11/2024-11-15_20.33.51.png?enhanced';
+	import spawnwest5 from '$lib/images/2024/11/2024-11-15_20.33.51.png?enhanced&w=132;125;92;54';
+	import spawnwest5no from '$lib/images/2024/11/2024-11-15_20.33.51.png?enhanced';
 	//@ts-expect-error
-	import spawnwest1 from '$lib/images/2024/11/2024-11-15_20.34.04.png?enhanced&w=132;125;92;54';
-	import spawnwest1no from '$lib/images/2024/11/2024-11-15_20.34.04.png?enhanced';
+	import spawn1 from '$lib/images/2024/11/2024-11-15_20.34.04.png?enhanced&w=132;125;92;54';
+	import spawn1no from '$lib/images/2024/11/2024-11-15_20.34.04.png?enhanced';
 	//@ts-expect-error
-	import spawnwest2 from '$lib/images/2024/11/2024-11-15_20.34.11.png?enhanced&w=132;125;92;54';
-	import spawnwest2no from '$lib/images/2024/11/2024-11-15_20.34.11.png?enhanced';
+	import spawn2 from '$lib/images/2024/11/2024-11-15_20.34.11.png?enhanced&w=132;125;92;54';
+	import spawn2no from '$lib/images/2024/11/2024-11-15_20.34.11.png?enhanced';
 	//@ts-expect-error
-	import spawnwest3 from '$lib/images/2024/11/2024-11-15_20.34.27.png?enhanced&w=132;125;92;54';
-	import spawnwest3no from '$lib/images/2024/11/2024-11-15_20.34.27.png?enhanced';
+	import spawn3 from '$lib/images/2024/11/2024-11-15_20.34.27.png?enhanced&w=132;125;92;54';
+	import spawn3no from '$lib/images/2024/11/2024-11-15_20.34.27.png?enhanced';
 	//@ts-expect-error
-	import spawnwest4 from '$lib/images/2024/11/2024-11-15_20.34.38.png?enhanced&w=132;125;92;54';
-	import spawnwest4no from '$lib/images/2024/11/2024-11-15_20.34.38.png?enhanced';
+	import spawn4 from '$lib/images/2024/11/2024-11-15_20.34.38.png?enhanced&w=132;125;92;54';
+	import spawn4no from '$lib/images/2024/11/2024-11-15_20.34.38.png?enhanced';
 	//@ts-expect-error
-	import spawnwest5 from '$lib/images/2024/11/2024-11-15_20.36.02.png?enhanced&w=132;125;92;54';
-	import spawnwest5no from '$lib/images/2024/11/2024-11-15_20.36.02.png?enhanced';
+	import spawn5 from '$lib/images/2024/11/2024-11-15_20.36.02.png?enhanced&w=132;125;92;54';
+	import spawn5no from '$lib/images/2024/11/2024-11-15_20.36.02.png?enhanced';
 
 	onMount(() => {
 		let atlantisracecourse = new PhotoSwipeLightbox({
