@@ -3,41 +3,59 @@
 	import 'photoswipe/style.css';
 	import { onMount } from 'svelte';
 	//@ts-expect-error
-	import atlantisracecourse1 from '$lib/images/2024/11/2024-11-07_18.23.08.png?enhanced&w=1600;227;216;160;98';
+	import atlantisracecourse1 from '$lib/images/2024/11/2024-11-07_18.23.08.png?enhanced&w=227;216;160;98';
+	import atlantisracecourse1no from '$lib/images/2024/11/2024-11-07_18.23.08.png?enhanced';
 	//@ts-expect-error
-	import atlantisracecourse2 from '$lib/images/2024/11/2024-11-07_18.23.19.png?enhanced&w=1600;227;216;160;98';
+	import atlantisracecourse2 from '$lib/images/2024/11/2024-11-07_18.23.19.png?enhanced&w=227;216;160;98';
+	import atlantisracecourse2no from '$lib/images/2024/11/2024-11-07_18.23.19.png?enhanced';
 	//@ts-expect-error
-	import atlantisracecourse3 from '$lib/images/2024/11/2024-11-07_18.23.48.png?enhanced&w=1600;227;216;160;98';
+	import atlantisracecourse3 from '$lib/images/2024/11/2024-11-07_18.23.48.png?enhanced&w=227;216;160;98';
+	import atlantisracecourse3no from '$lib/images/2024/11/2024-11-07_18.23.48.png?enhanced';
 	//@ts-expect-error
-	import avantrapines1 from '$lib/images/2024/11/2024-11-07_18.59.21.png?enhanced&w=1600;227;216;160;98';
+	import avantrapines1 from '$lib/images/2024/11/2024-11-07_18.59.21.png?enhanced&w=227;216;160;98';
+	import avantrapines1no from '$lib/images/2024/11/2024-11-07_18.59.21.png?enhanced';
 	//@ts-expect-error
-	import avantrapines2 from '$lib/images/2024/11/2024-11-07_18.59.46.png?enhanced&w=1600;227;216;160;98';
+	import avantrapines2 from '$lib/images/2024/11/2024-11-07_18.59.46.png?enhanced&w=227;216;160;98';
+	import avantrapines2no from '$lib/images/2024/11/2024-11-07_18.59.46.png?enhanced';
 	//@ts-expect-error
-	import avantrapines3 from '$lib/images/2024/11/2024-11-07_19.00.29.png?enhanced&w=1600;227;216;160;98';
+	import avantrapines3 from '$lib/images/2024/11/2024-11-07_19.00.29.png?enhanced&w=227;216;160;98';
+	import avantrapines3no from '$lib/images/2024/11/2024-11-07_19.00.29.png?enhanced';
 	//@ts-expect-error
-	import newbayswater1 from '$lib/images/2024/11/2024-11-07_19.01.18.png?enhanced&w=1600;167;159;117;71';
+	import newbayswater1 from '$lib/images/2024/11/2024-11-07_19.01.18.png?enhanced&w=167;159;117;71';
+	import newbayswater1no from '$lib/images/2024/11/2024-11-07_19.01.18.png?enhanced';
 	//@ts-expect-error
-	import newbayswater2 from '$lib/images/2024/11/2024-11-07_19.01.21.png?enhanced&w=1600;167;159;117;71';
+	import newbayswater2 from '$lib/images/2024/11/2024-11-07_19.01.21.png?enhanced&w=167;159;117;71';
+	import newbayswater2no from '$lib/images/2024/11/2024-11-07_19.01.21.png?enhanced';
 	//@ts-expect-error
-	import newbayswater3 from '$lib/images/2024/11/2024-11-07_19.02.13.png?enhanced&w=1600;167;159;117;71';
+	import newbayswater3 from '$lib/images/2024/11/2024-11-07_19.02.13.png?enhanced&w=167;159;117;71';
+	import newbayswater3no from '$lib/images/2024/11/2024-11-07_19.02.13.png?enhanced';
 	//@ts-expect-error
-	import newbayswater4 from '$lib/images/2024/11/2024-11-07_19.02.25.png?enhanced&w=1600;167;159;117;71';
+	import newbayswater4 from '$lib/images/2024/11/2024-11-07_19.02.25.png?enhanced&w=167;159;117;71';
+	import newbayswater4no from '$lib/images/2024/11/2024-11-07_19.02.25.png?enhanced';
 	//@ts-expect-error
-	import spawnhsrterminal1 from '$lib/images/2024/11/2024-11-07_19.07.04.png?enhanced&w=1600;227;216;160;98';
+	import spawnhsrterminal1 from '$lib/images/2024/11/2024-11-07_19.07.04.png?enhanced&w=227;216;160;98';
+	import spawnhsrterminal1no from '$lib/images/2024/11/2024-11-07_19.07.04.png?enhanced';
 	//@ts-expect-error
-	import spawnhsrterminal2 from '$lib/images/2024/11/2024-11-07_19.07.12.png?enhanced&w=1600;227;216;160;98';
+	import spawnhsrterminal2 from '$lib/images/2024/11/2024-11-07_19.07.12.png?enhanced&w=227;216;160;98';
+	import spawnhsrterminal2no from '$lib/images/2024/11/2024-11-07_19.07.12.png?enhanced';
 	//@ts-expect-error
-	import spawnhsrterminal3 from '$lib/images/2024/11/2024-11-07_19.07.23.png?enhanced&w=1600;227;216;160;98';
+	import spawnhsrterminal3 from '$lib/images/2024/11/2024-11-07_19.07.23.png?enhanced&w=227;216;160;98';
+	import spawnhsrterminal3no from '$lib/images/2024/11/2024-11-07_19.07.23.png?enhanced';
 	//@ts-expect-error
-	import purplenaturereserve1 from '$lib/images/2024/11/2024-11-07_19.10.13.png?enhanced&w=1600;132;125;92;54';
+	import purplenaturereserve1 from '$lib/images/2024/11/2024-11-07_19.10.13.png?enhanced&w=132;125;92;54';
+	import purplenaturereserve1no from '$lib/images/2024/11/2024-11-07_19.10.13.png?enhanced';
 	//@ts-expect-error
-	import purplenaturereserve2 from '$lib/images/2024/11/2024-11-07_19.10.24.png?enhanced&w=1600;132;125;92;54';
+	import purplenaturereserve2 from '$lib/images/2024/11/2024-11-07_19.10.24.png?enhanced&w=132;125;92;54';
+	import purplenaturereserve2no from '$lib/images/2024/11/2024-11-07_19.10.24.png?enhanced';
 	//@ts-expect-error
-	import purplenaturereserve3 from '$lib/images/2024/11/2024-11-07_19.11.19.png?enhanced&w=1600;132;125;92;54';
+	import purplenaturereserve3 from '$lib/images/2024/11/2024-11-07_19.11.19.png?enhanced&w=132;125;92;54';
+	import purplenaturereserve3no from '$lib/images/2024/11/2024-11-07_19.11.19.png?enhanced';
 	//@ts-expect-error
-	import purplenaturereserve4 from '$lib/images/2024/11/2024-11-07_19.11.39.png?enhanced&w=1600;132;125;92;54';
+	import purplenaturereserve4 from '$lib/images/2024/11/2024-11-07_19.11.39.png?enhanced&w=132;125;92;54';
+	import purplenaturereserve4no from '$lib/images/2024/11/2024-11-07_19.11.39.png?enhanced';
 	//@ts-expect-error
-	import purplenaturereserve5 from '$lib/images/2024/11/2024-11-07_19.11.44.png?enhanced&w=1600;132;125;92;54';
+	import purplenaturereserve5 from '$lib/images/2024/11/2024-11-07_19.11.44.png?enhanced&w=132;125;92;54';
+	import purplenaturereserve5no from '$lib/images/2024/11/2024-11-07_19.11.44.png?enhanced';
 
 	onMount(() => {
 		let atlantisracecourse = new PhotoSwipeLightbox({
@@ -85,33 +103,42 @@
 <div class="pswp-gallery flex space-x-3" id="atlantisracecourse">
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={atlantisracecourse1.img.src}
-		data-pswp-width={atlantisracecourse1.img.w}
-		data-pswp-height={atlantisracecourse1.img.h}
+		href={atlantisracecourse1no.img.src}
+		data-pswp-width={atlantisracecourse1no.img.w}
+		data-pswp-height={atlantisracecourse1no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={atlantisracecourse1} />
+		<enhanced:img
+			src={atlantisracecourse1}
+			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={atlantisracecourse3.img.src}
-		data-pswp-width={atlantisracecourse3.img.w}
-		data-pswp-height={atlantisracecourse3.img.h}
+		href={atlantisracecourse3no.img.src}
+		data-pswp-width={atlantisracecourse3no.img.w}
+		data-pswp-height={atlantisracecourse3no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={atlantisracecourse3} />
+		<enhanced:img
+			src={atlantisracecourse3}
+			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={atlantisracecourse2.img.src}
-		data-pswp-width={atlantisracecourse2.img.w}
-		data-pswp-height={atlantisracecourse2.img.h}
+		href={atlantisracecourse2no.img.src}
+		data-pswp-width={atlantisracecourse2no.img.w}
+		data-pswp-height={atlantisracecourse2no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={atlantisracecourse2} />
+		<enhanced:img
+			src={atlantisracecourse2}
+			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
+		/>
 	</a>
 </div>
 <br />
@@ -119,33 +146,42 @@
 <div class="pswp-gallery flex space-x-3" id="avantrapines">
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={avantrapines1.img.src}
-		data-pswp-width={avantrapines1.img.w}
-		data-pswp-height={avantrapines1.img.h}
+		href={avantrapines1no.img.src}
+		data-pswp-width={avantrapines1no.img.w}
+		data-pswp-height={avantrapines1no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={avantrapines1} />
+		<enhanced:img
+			src={avantrapines1}
+			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={avantrapines2.img.src}
-		data-pswp-width={avantrapines2.img.w}
-		data-pswp-height={avantrapines2.img.h}
+		href={avantrapines2no.img.src}
+		data-pswp-width={avantrapines2no.img.w}
+		data-pswp-height={avantrapines2no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={avantrapines2} />
+		<enhanced:img
+			src={avantrapines2}
+			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={avantrapines3.img.src}
-		data-pswp-width={avantrapines3.img.w}
-		data-pswp-height={avantrapines3.img.h}
+		href={avantrapines3no.img.src}
+		data-pswp-width={avantrapines3no.img.w}
+		data-pswp-height={avantrapines3no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={avantrapines3} />
+		<enhanced:img
+			src={avantrapines3}
+			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
+		/>
 	</a>
 </div>
 <br />
@@ -153,43 +189,55 @@
 <div class="pswp-gallery flex space-x-3" id="newbayswater">
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={newbayswater1.img.src}
-		data-pswp-width={newbayswater1.img.w}
-		data-pswp-height={newbayswater1.img.h}
+		href={newbayswater1no.img.src}
+		data-pswp-width={newbayswater1no.img.w}
+		data-pswp-height={newbayswater1no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={newbayswater1} />
+		<enhanced:img
+			src={newbayswater1}
+			sizes="(min-width: 780px) 156px, (min-width: 680px) 127px, calc(23.61vw - 29px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={newbayswater2.img.src}
-		data-pswp-width={newbayswater2.img.w}
-		data-pswp-height={newbayswater2.img.h}
+		href={newbayswater2no.img.src}
+		data-pswp-width={newbayswater2no.img.w}
+		data-pswp-height={newbayswater2no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={newbayswater2} />
+		<enhanced:img
+			src={newbayswater2}
+			sizes="(min-width: 780px) 156px, (min-width: 680px) 127px, calc(23.61vw - 29px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={newbayswater3.img.src}
-		data-pswp-width={newbayswater3.img.w}
-		data-pswp-height={newbayswater3.img.h}
+		href={newbayswater3no.img.src}
+		data-pswp-width={newbayswater3no.img.w}
+		data-pswp-height={newbayswater3no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={newbayswater3} />
+		<enhanced:img
+			src={newbayswater3}
+			sizes="(min-width: 780px) 156px, (min-width: 680px) 127px, calc(23.61vw - 29px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={newbayswater4.img.src}
-		data-pswp-width={newbayswater4.img.w}
-		data-pswp-height={newbayswater4.img.h}
+		href={newbayswater4no.img.src}
+		data-pswp-width={newbayswater4no.img.w}
+		data-pswp-height={newbayswater4no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={newbayswater4} />
+		<enhanced:img
+			src={newbayswater4}
+			sizes="(min-width: 780px) 156px, (min-width: 680px) 127px, calc(23.61vw - 29px)"
+		/>
 	</a>
 </div>
 <br />
@@ -197,53 +245,68 @@
 <div class="pswp-gallery flex space-x-3" id="purplenaturereserve">
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={purplenaturereserve1.img.src}
-		data-pswp-width={purplenaturereserve1.img.w}
-		data-pswp-height={purplenaturereserve1.img.h}
+		href={purplenaturereserve1no.img.src}
+		data-pswp-width={purplenaturereserve1no.img.w}
+		data-pswp-height={purplenaturereserve1no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={purplenaturereserve1} />
+		<enhanced:img
+			src={purplenaturereserve1}
+			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={purplenaturereserve2.img.src}
-		data-pswp-width={purplenaturereserve2.img.w}
-		data-pswp-height={purplenaturereserve2.img.h}
+		href={purplenaturereserve2no.img.src}
+		data-pswp-width={purplenaturereserve2no.img.w}
+		data-pswp-height={purplenaturereserve2no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={purplenaturereserve2} />
+		<enhanced:img
+			src={purplenaturereserve2}
+			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={purplenaturereserve3.img.src}
-		data-pswp-width={purplenaturereserve3.img.w}
-		data-pswp-height={purplenaturereserve3.img.h}
+		href={purplenaturereserve3no.img.src}
+		data-pswp-width={purplenaturereserve3no.img.w}
+		data-pswp-height={purplenaturereserve3no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={purplenaturereserve3} />
+		<enhanced:img
+			src={purplenaturereserve3}
+			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={purplenaturereserve4.img.src}
-		data-pswp-width={purplenaturereserve4.img.w}
-		data-pswp-height={purplenaturereserve4.img.h}
+		href={purplenaturereserve4no.img.src}
+		data-pswp-width={purplenaturereserve4no.img.w}
+		data-pswp-height={purplenaturereserve4no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={purplenaturereserve4} />
+		<enhanced:img
+			src={purplenaturereserve4}
+			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={purplenaturereserve5.img.src}
-		data-pswp-width={purplenaturereserve5.img.w}
-		data-pswp-height={purplenaturereserve5.img.h}
+		href={purplenaturereserve5no.img.src}
+		data-pswp-width={purplenaturereserve5no.img.w}
+		data-pswp-height={purplenaturereserve5no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={purplenaturereserve5} />
+		<enhanced:img
+			src={purplenaturereserve5}
+			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
+		/>
 	</a>
 </div>
 <br />
@@ -251,32 +314,41 @@
 <div class="pswp-gallery flex space-x-3" id="spawnhsrterminal">
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={spawnhsrterminal1.img.src}
-		data-pswp-width={spawnhsrterminal1.img.w}
-		data-pswp-height={spawnhsrterminal1.img.h}
+		href={spawnhsrterminal1no.img.src}
+		data-pswp-width={spawnhsrterminal1no.img.w}
+		data-pswp-height={spawnhsrterminal1no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={spawnhsrterminal1} />
+		<enhanced:img
+			src={spawnhsrterminal1}
+			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={spawnhsrterminal2.img.src}
-		data-pswp-width={spawnhsrterminal2.img.w}
-		data-pswp-height={spawnhsrterminal2.img.h}
+		href={spawnhsrterminal2no.img.src}
+		data-pswp-width={spawnhsrterminal2no.img.w}
+		data-pswp-height={spawnhsrterminal2no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={spawnhsrterminal2} />
+		<enhanced:img
+			src={spawnhsrterminal2}
+			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
+		/>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
-		href={spawnhsrterminal3.img.src}
-		data-pswp-width={spawnhsrterminal3.img.w}
-		data-pswp-height={spawnhsrterminal3.img.h}
+		href={spawnhsrterminal3no.img.src}
+		data-pswp-width={spawnhsrterminal3no.img.w}
+		data-pswp-height={spawnhsrterminal3no.img.h}
 		target="_blank"
 		rel="noreferrer"
 	>
-		<enhanced:img src={spawnhsrterminal3} />
+		<enhanced:img
+			src={spawnhsrterminal3}
+			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
+		/>
 	</a>
 </div>

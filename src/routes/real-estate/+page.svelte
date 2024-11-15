@@ -1,6 +1,6 @@
 <script lang="ts">
 	//@ts-expect-error
-	import AtlanticStreet from '$lib/images/2024/08/1atlanticstreet.png?enhanced&w=1600;704;672;544;318';
+	import AtlanticStreet from '$lib/images/2024/08/1atlanticstreet.png?enhanced&w=704;672;544;318';
 </script>
 
 <h1 class="mb-5 text-center text-5xl font-bold">
@@ -25,4 +25,5 @@
 <enhanced:img
 	src={AtlanticStreet}
 	alt="1 Atlantic Street"
+	sizes="(min-width: 780px) 661px, (min-width: 680px) 544px, calc(94.44vw - 79px)"
 ></enhanced:img>

@@ -1,17 +1,18 @@
 <script lang="ts">
 	//@ts-expect-error
-	import routemap from '$lib/images/2024/11/routemap.2.png?enhanced&w=4968;704;672;544;318';
+	import routemap from '$lib/images/2024/11/routemap.2.png?enhanced&w=704;672;544;318';
 	//@ts-expect-error
-	import pt1 from '$lib/images/2024/11/pt1.2.png?enhanced&w=2158;352;336;272;159';
+	import pt1 from '$lib/images/2024/11/pt1.2.png?enhanced&w=352;336;272;159';
 	//@ts-expect-error
-	import hsp1 from '$lib/images/2024/11/hsp1.2.png?enhanced&w=4929;704;672;544;318';
+	import hsp1 from '$lib/images/2024/11/hsp1.2.png?enhanced&w=704;672;544;318';
 	//@ts-expect-error
-	import spawnlink from '$lib/images/2024/11/spawnlink.png?enhanced&w=4100;704;672;544;318';
+	import spawnlink from '$lib/images/2024/11/spawnlink.png?enhanced&w=704;672;544;318';
 </script>
 
 <enhanced:img
 	src={routemap}
 	alt="Route Map"
+	sizes="(min-width: 780px) 661px, (min-width: 680px) 544px, calc(94.44vw - 79px)"
 ></enhanced:img>
 <br />
 <h2 class="mb-4 text-center text-3xl font-bold">Operational routes:</h2>
@@ -27,6 +28,7 @@
 	src={pt1}
 	alt="PT1 Map"
 	class="w-1/2"
+	sizes="(min-width: 780px) 330px, (min-width: 680px) 272px, calc(47.22vw - 40px)"
 ></enhanced:img>
 <h3 class="mb-3 text-2xl font-semibold">HSP1:</h3>
 <ul class="mb-6 list-disc pl-6">
@@ -39,6 +41,7 @@
 <enhanced:img
 	src={hsp1}
 	alt="HSP1 Map"
+	sizes="(min-width: 780px) 661px, (min-width: 680px) 544px, calc(94.44vw - 79px)"
 ></enhanced:img>
 <br />
 <h3 class="mb-3 text-2xl font-semibold">SpawnLink:</h3>
@@ -52,6 +55,7 @@
 <enhanced:img
 	src={spawnlink}
 	alt="SpawnLink Map"
+	sizes="(min-width: 780px) 661px, (min-width: 680px) 544px, calc(94.44vw - 79px)"
 ></enhanced:img>
 <br />
 <h2 class="mb-4 text-center text-3xl font-bold">Routes in Construction:</h2>
