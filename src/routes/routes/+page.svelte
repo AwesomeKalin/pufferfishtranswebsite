@@ -67,3 +67,12 @@
 	<li>Via: Atlantis, Belmont Bay</li>
 	<li>Vehicle on Route: None currently!</li>
 </ul>
+<br />
+<h3 class="mb-3 text-2xl font-semibold">PTram 1:</h3>
+<ul class="mb-6 list-disc pl-6">
+	<li>Type: Tram/Light Rail</li>
+	<li>From: Shenhua Resort</li>
+	<li>To: Shrek's Swamp</li>
+	<li>Via: Reddwood Forest, Purple Roofed Hills, Dripstone Tops</li>
+	<li>Vehicle on Route: None currently!</li>
+</ul>
