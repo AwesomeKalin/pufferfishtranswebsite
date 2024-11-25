@@ -28,6 +28,7 @@
 	class="w-1/2"
 	sizes="(min-width: 780px) 330px, (min-width: 680px) 272px, calc(47.22vw - 40px)"
 ></enhanced:img>
+<br />
 <h3 class="mb-3 text-2xl font-semibold">HSP1:</h3>
 <ul class="mb-6 list-disc pl-6">
 	<li>Type: High Speed Rail</li>
@@ -60,7 +61,7 @@
 	<li>Via: Reddwood Forest, Purple Roofed Hills, Dripstone Tops</li>
 	<li>Vehicle on Route: None currently!</li>
 </ul>
-<h3 class="mb-3 text-2xl font-semibold">PTram 1:</h3>
+<h3 class="mb-3 text-2xl font-semibold">SeaLink Line:</h3>
 <ul class="mb-6 list-disc pl-6">
 	<li>Type: Rail</li>
 	<li>From: Spawn</li>
