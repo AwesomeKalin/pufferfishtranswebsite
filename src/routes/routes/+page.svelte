@@ -5,8 +5,6 @@
 	import pt1 from '$lib/images/2024/11/pt1.2.png?enhanced&w=352;336;272;159';
 	//@ts-expect-error
 	import hsp1 from '$lib/images/2024/11/hsp1.2.png?enhanced&w=704;672;544;318';
-	//@ts-expect-error
-	import spawnlink from '$lib/images/2024/11/spawnlink.png?enhanced&w=704;672;544;318';
 </script>
 
 <enhanced:img
@@ -44,20 +42,6 @@
 	sizes="(min-width: 780px) 661px, (min-width: 680px) 544px, calc(94.44vw - 79px)"
 ></enhanced:img>
 <br />
-<h3 class="mb-3 text-2xl font-semibold">SpawnLink:</h3>
-<ul class="mb-6 list-disc pl-6">
-	<li>Type: Cable Car</li>
-	<li>From: Spawn</li>
-	<li>To: Spawn West</li>
-	<li>Via: N/A</li>
-	<li>Vehicle on Route: NGong Ping 360</li>
-</ul>
-<enhanced:img
-	src={spawnlink}
-	alt="SpawnLink Map"
-	sizes="(min-width: 780px) 661px, (min-width: 680px) 544px, calc(94.44vw - 79px)"
-></enhanced:img>
-<br />
 <h2 class="mb-4 text-center text-3xl font-bold">Routes in Construction:</h2>
 <h3 class="mb-3 text-2xl font-semibold">PT2:</h3>
 <ul class="mb-6 list-disc pl-6">
@@ -74,5 +58,13 @@
 	<li>From: Shenhua Resort</li>
 	<li>To: Shrek's Swamp</li>
 	<li>Via: Reddwood Forest, Purple Roofed Hills, Dripstone Tops</li>
+	<li>Vehicle on Route: None currently!</li>
+</ul>
+<h3 class="mb-3 text-2xl font-semibold">PTram 1:</h3>
+<ul class="mb-6 list-disc pl-6">
+	<li>Type: Rail</li>
+	<li>From: Spawn</li>
+	<li>To: Deepshore</li>
+	<li>Via: Bushlands</li>
 	<li>Vehicle on Route: None currently!</li>
 </ul>
