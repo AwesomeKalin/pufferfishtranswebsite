@@ -12,12 +12,12 @@
 <ul class="mb-6 list-disc pl-6">
 	<li>Small, unfurnished house for 1</li>
 	<li>Surrounded by water</li>
-	<li>Nearest Bus Stop and Routes: Atlantis, No Routes Currently</li>
-	<li>Nearest Train Station and Routes: Central City Hall, Silver Line from MangoRail</li>
+	<li>Nearest Bus Stop and Routes: Atlantis, CMB by SebRail</li>
+	<li>Nearest Train Station and Routes: Atlantis, SLR Atlantis Line by PurpleRail</li>
 	<li>Buy or Rent: Best Offer</li>
 	<li>
 		Purchase by talking to one of our representatives on the <a
-			href="https://discord.gg/Be72D8EVd8"
+			href="https://discord.gg/mEzTNkFBjA"
 			class="underline">PurpleMTR Discord Server</a
 		>
 	</li>

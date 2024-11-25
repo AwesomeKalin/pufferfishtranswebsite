@@ -9,7 +9,7 @@
 		<span class="font-bold">Server Info:</span> PurpleMTR is a Minecraft server utilizing the MTR
 		(Minecraft Transit Railway) mod along with various other mods to enhance your transportation and
 		building experience!
-		<a href="https://discord.gg/Be72D8EVd8" class="underline"
+		<a href="https://discord.gg/mEzTNkFBjA" class="underline"
 			>Join the official discord server today!</a
 		>
 	</p>

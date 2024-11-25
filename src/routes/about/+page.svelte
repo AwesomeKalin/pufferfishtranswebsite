@@ -14,7 +14,7 @@
 	or if you want a look at the world before you join, then head to
 	<a href="de1.ocean-hosting.top:25004">our Squaremap!</a> Want to start your own company to help
 	out with our goal? Then join our
-	<a href="https://discord.gg/Be72D8EVd8" class="underline"
+	<a href="https://discord.gg/mEzTNkFBjA" class="underline"
 		>discord server, and apply to be a builder!</a
 	>
 </p>
