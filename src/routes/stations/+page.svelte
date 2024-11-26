@@ -57,16 +57,13 @@
 	import purplenaturereserve5 from '$lib/images/2024/11/2024-11-07_19.11.44.png?enhanced&w=132;125;92;54';
 	import purplenaturereserve5no from '$lib/images/2024/11/2024-11-07_19.11.44.png?enhanced';
 	//@ts-expect-error
-	import spawnwest2 from '$lib/images/2024/11/2024-11-15_20.33.07.png?enhanced&w=167;159;117;71';
+	import spawnwest2 from '$lib/images/2024/11/2024-11-15_20.33.07.png?enhanced&w=227;216;160;98';
 	import spawnwest2no from '$lib/images/2024/11/2024-11-15_20.33.07.png?enhanced';
 	//@ts-expect-error
-	import spawnwest3 from '$lib/images/2024/11/2024-11-15_20.33.15.png?enhanced&w=167;159;117;71';
-	import spawnwest3no from '$lib/images/2024/11/2024-11-15_20.33.15.png?enhanced';
-	//@ts-expect-error
-	import spawnwest4 from '$lib/images/2024/11/2024-11-15_20.33.34.png?enhanced&w=167;159;117;71';
+	import spawnwest4 from '$lib/images/2024/11/2024-11-15_20.33.34.png?enhanced&w=227;216;160;98';
 	import spawnwest4no from '$lib/images/2024/11/2024-11-15_20.33.34.png?enhanced';
 	//@ts-expect-error
-	import spawnwest5 from '$lib/images/2024/11/2024-11-15_20.33.51.png?enhanced&w=167;159;117;71';
+	import spawnwest5 from '$lib/images/2024/11/2024-11-15_20.33.51.png?enhanced&w=227;216;160;98';
 	import spawnwest5no from '$lib/images/2024/11/2024-11-15_20.33.51.png?enhanced';
 
 	onMount(() => {
@@ -329,6 +326,49 @@
 	</a>
 </div>
 <br />
+<h3 class="mb-3 text-2xl font-semibold">Spawn</h3>
+<div class="pswp-gallery flex space-x-3" id="spawnwest">
+	<!-- svelte-ignore a11y_consider_explicit_label -->
+	<a
+		href={spawnwest2no.img.src}
+		data-pswp-width={spawnwest2no.img.w}
+		data-pswp-height={spawnwest2no.img.h}
+		target="_blank"
+		rel="noreferrer"
+	>
+		<enhanced:img
+			src={spawnwest2}
+			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
+		></enhanced:img>
+	</a>
+	<!-- svelte-ignore a11y_consider_explicit_label -->
+	<a
+		href={spawnwest4no.img.src}
+		data-pswp-width={spawnwest4no.img.w}
+		data-pswp-height={spawnwest4no.img.h}
+		target="_blank"
+		rel="noreferrer"
+	>
+		<enhanced:img
+			src={spawnwest4}
+			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
+		></enhanced:img>
+	</a>
+	<!-- svelte-ignore a11y_consider_explicit_label -->
+	<a
+		href={spawnwest5no.img.src}
+		data-pswp-width={spawnwest5no.img.w}
+		data-pswp-height={spawnwest5no.img.h}
+		target="_blank"
+		rel="noreferrer"
+	>
+		<enhanced:img
+			src={spawnwest5}
+			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
+		></enhanced:img>
+	</a>
+</div>
+<br />
 <h3 class="mb-3 text-2xl font-semibold">Spawn HSR Terminal</h3>
 <div class="pswp-gallery flex space-x-3" id="spawnhsrterminal">
 	<!-- svelte-ignore a11y_consider_explicit_label -->
@@ -369,61 +409,5 @@
 			src={spawnhsrterminal3}
 			sizes="(min-width: 780px) 212px, (min-width: 680px) 173px, calc(31.39vw - 34px)"
 		/>
-	</a>
-</div>
-<br />
-<h3 class="mb-3 text-2xl font-semibold">Spawn</h3>
-<div class="pswp-gallery flex space-x-3" id="spawnwest">
-	<!-- svelte-ignore a11y_consider_explicit_label -->
-	<a
-		href={spawnwest2no.img.src}
-		data-pswp-width={spawnwest2no.img.w}
-		data-pswp-height={spawnwest2no.img.h}
-		target="_blank"
-		rel="noreferrer"
-	>
-		<enhanced:img
-			src={spawnwest2}
-			sizes="(min-width: 780px) 156px, (min-width: 680px) 127px, calc(23.61vw - 29px)"
-		></enhanced:img>
-	</a>
-	<!-- svelte-ignore a11y_consider_explicit_label -->
-	<a
-		href={spawnwest3no.img.src}
-		data-pswp-width={spawnwest3no.img.w}
-		data-pswp-height={spawnwest3no.img.h}
-		target="_blank"
-		rel="noreferrer"
-	>
-		<enhanced:img
-			src={spawnwest3}
-			sizes="(min-width: 780px) 156px, (min-width: 680px) 127px, calc(23.61vw - 29px)"
-		></enhanced:img>
-	</a>
-	<!-- svelte-ignore a11y_consider_explicit_label -->
-	<a
-		href={spawnwest4no.img.src}
-		data-pswp-width={spawnwest4no.img.w}
-		data-pswp-height={spawnwest4no.img.h}
-		target="_blank"
-		rel="noreferrer"
-	>
-		<enhanced:img
-			src={spawnwest4}
-			sizes="(min-width: 780px) 156px, (min-width: 680px) 127px, calc(23.61vw - 29px)"
-		></enhanced:img>
-	</a>
-	<!-- svelte-ignore a11y_consider_explicit_label -->
-	<a
-		href={spawnwest5no.img.src}
-		data-pswp-width={spawnwest5no.img.w}
-		data-pswp-height={spawnwest5no.img.h}
-		target="_blank"
-		rel="noreferrer"
-	>
-		<enhanced:img
-			src={spawnwest5}
-			sizes="(min-width: 780px) 156px, (min-width: 680px) 127px, calc(23.61vw - 29px)"
-		></enhanced:img>
 	</a>
 </div>
