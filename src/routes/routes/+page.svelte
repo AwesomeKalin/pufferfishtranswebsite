@@ -61,11 +61,30 @@
 	<li>Via: Reddwood Forest, Purple Roofed Hills, Dripstone Tops</li>
 	<li>Vehicle on Route: None currently!</li>
 </ul>
-<h3 class="mb-3 text-2xl font-semibold">SeaLink Line:</h3>
+<br />
+<h3 class="mb-3 text-2xl font-semibold">SeaLink Line (Phase 1):</h3>
 <ul class="mb-6 list-disc pl-6">
 	<li>Type: Rail</li>
 	<li>From: Spawn</li>
 	<li>To: Deepshore</li>
 	<li>Via: Bushlands</li>
+	<li>Vehicle on Route: None currently!</li>
+</ul>
+<br />
+<h3 class="mb-3 text-2xl font-semibold">SeaLink Line (Phase 2):</h3>
+<ul class="mb-6 list-disc pl-6">
+	<li>Type: Rail</li>
+	<li>From: Deepshore</li>
+	<li>To: TBD</li>
+	<li>Via: TBD, TBD</li>
+	<li>Vehicle on Route: None currently!</li>
+</ul>
+<br />
+<h3 class="mb-3 text-2xl font-semibold">SeaLink Line (Phase 3):</h3>
+<ul class="mb-6 list-disc pl-6">
+	<li>Type: Rail</li>
+	<li>From: TBD</li>
+	<li>To: Greenery</li>
+	<li>Via: TBD</li>
 	<li>Vehicle on Route: None currently!</li>
 </ul>
