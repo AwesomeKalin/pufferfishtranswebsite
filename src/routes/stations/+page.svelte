@@ -57,35 +57,17 @@
 	import purplenaturereserve5 from '$lib/images/2024/11/2024-11-07_19.11.44.png?enhanced&w=132;125;92;54';
 	import purplenaturereserve5no from '$lib/images/2024/11/2024-11-07_19.11.44.png?enhanced';
 	//@ts-expect-error
-	import spawnwest1 from '$lib/images/2024/11/2024-11-15_20.32.57.png?enhanced&w=132;125;92;54';
-	import spawnwest1no from '$lib/images/2024/11/2024-11-15_20.32.57.png?enhanced';
-	//@ts-expect-error
-	import spawnwest2 from '$lib/images/2024/11/2024-11-15_20.33.07.png?enhanced&w=132;125;92;54';
+	import spawnwest2 from '$lib/images/2024/11/2024-11-15_20.33.07.png?enhanced&w=167;159;117;71';
 	import spawnwest2no from '$lib/images/2024/11/2024-11-15_20.33.07.png?enhanced';
 	//@ts-expect-error
-	import spawnwest3 from '$lib/images/2024/11/2024-11-15_20.33.15.png?enhanced&w=132;125;92;54';
+	import spawnwest3 from '$lib/images/2024/11/2024-11-15_20.33.15.png?enhanced&w=167;159;117;71';
 	import spawnwest3no from '$lib/images/2024/11/2024-11-15_20.33.15.png?enhanced';
 	//@ts-expect-error
-	import spawnwest4 from '$lib/images/2024/11/2024-11-15_20.33.34.png?enhanced&w=132;125;92;54';
+	import spawnwest4 from '$lib/images/2024/11/2024-11-15_20.33.34.png?enhanced&w=167;159;117;71';
 	import spawnwest4no from '$lib/images/2024/11/2024-11-15_20.33.34.png?enhanced';
 	//@ts-expect-error
-	import spawnwest5 from '$lib/images/2024/11/2024-11-15_20.33.51.png?enhanced&w=132;125;92;54';
+	import spawnwest5 from '$lib/images/2024/11/2024-11-15_20.33.51.png?enhanced&w=167;159;117;71';
 	import spawnwest5no from '$lib/images/2024/11/2024-11-15_20.33.51.png?enhanced';
-	//@ts-expect-error
-	import spawn1 from '$lib/images/2024/11/2024-11-15_20.34.04.png?enhanced&w=132;125;92;54';
-	import spawn1no from '$lib/images/2024/11/2024-11-15_20.34.04.png?enhanced';
-	//@ts-expect-error
-	import spawn2 from '$lib/images/2024/11/2024-11-15_20.34.11.png?enhanced&w=132;125;92;54';
-	import spawn2no from '$lib/images/2024/11/2024-11-15_20.34.11.png?enhanced';
-	//@ts-expect-error
-	import spawn3 from '$lib/images/2024/11/2024-11-15_20.34.27.png?enhanced&w=132;125;92;54';
-	import spawn3no from '$lib/images/2024/11/2024-11-15_20.34.27.png?enhanced';
-	//@ts-expect-error
-	import spawn4 from '$lib/images/2024/11/2024-11-15_20.34.38.png?enhanced&w=132;125;92;54';
-	import spawn4no from '$lib/images/2024/11/2024-11-15_20.34.38.png?enhanced';
-	//@ts-expect-error
-	import spawn5 from '$lib/images/2024/11/2024-11-15_20.36.02.png?enhanced&w=132;125;92;54';
-	import spawn5no from '$lib/images/2024/11/2024-11-15_20.36.02.png?enhanced';
 
 	onMount(() => {
 		let atlantisracecourse = new PhotoSwipeLightbox({
@@ -122,13 +104,6 @@
 			pswpModule: () => import('photoswipe')
 		});
 		purplenaturereserve.init();
-
-		let spawn = new PhotoSwipeLightbox({
-			gallery: '#spawn',
-			children: 'a',
-			pswpModule: () => import('photoswipe')
-		});
-		spawn.init();
 
 		let spawnwest = new PhotoSwipeLightbox({
 			gallery: '#spawnwest',
@@ -354,75 +329,6 @@
 	</a>
 </div>
 <br />
-<h3 class="mb-3 text-2xl font-semibold">Spawn</h3>
-<div class="pswp-gallery flex space-x-3" id="spawn">
-	<!-- svelte-ignore a11y_consider_explicit_label -->
-	<a
-		href={spawn1no.img.src}
-		data-pswp-width={spawn1no.img.w}
-		data-pswp-height={spawn1no.img.h}
-		target="_blank"
-		rel="noreferrer"
-	>
-		<enhanced:img
-			src={spawn1}
-			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
-		></enhanced:img>
-	</a>
-	<!-- svelte-ignore a11y_consider_explicit_label -->
-	<a
-		href={spawn2no.img.src}
-		data-pswp-width={spawn2no.img.w}
-		data-pswp-height={spawn2no.img.h}
-		target="_blank"
-		rel="noreferrer"
-	>
-		<enhanced:img
-			src={spawn2}
-			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
-		></enhanced:img>
-	</a>
-	<!-- svelte-ignore a11y_consider_explicit_label -->
-	<a
-		href={spawn3no.img.src}
-		data-pswp-width={spawn3no.img.w}
-		data-pswp-height={spawn3no.img.h}
-		target="_blank"
-		rel="noreferrer"
-	>
-		<enhanced:img
-			src={spawn3}
-			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
-		></enhanced:img>
-	</a>
-	<!-- svelte-ignore a11y_consider_explicit_label -->
-	<a
-		href={spawn4no.img.src}
-		data-pswp-width={spawn4no.img.w}
-		data-pswp-height={spawn4no.img.h}
-		target="_blank"
-		rel="noreferrer"
-	>
-		<enhanced:img
-			src={spawn4}
-			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
-		></enhanced:img>
-	</a>
-	<!-- svelte-ignore a11y_consider_explicit_label -->
-	<a
-		href={spawn5no.img.src}
-		data-pswp-width={spawn5no.img.w}
-		data-pswp-height={spawn5no.img.h}
-		target="_blank"
-		rel="noreferrer"
-	>
-		<enhanced:img
-			src={spawn5}
-			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
-		></enhanced:img>
-	</a>
-</div>
-<br />
 <h3 class="mb-3 text-2xl font-semibold">Spawn HSR Terminal</h3>
 <div class="pswp-gallery flex space-x-3" id="spawnhsrterminal">
 	<!-- svelte-ignore a11y_consider_explicit_label -->
@@ -466,21 +372,8 @@
 	</a>
 </div>
 <br />
-<h3 class="mb-3 text-2xl font-semibold">Spawn West</h3>
+<h3 class="mb-3 text-2xl font-semibold">Spawn</h3>
 <div class="pswp-gallery flex space-x-3" id="spawnwest">
-	<!-- svelte-ignore a11y_consider_explicit_label -->
-	<a
-		href={spawnwest1no.img.src}
-		data-pswp-width={spawnwest1no.img.w}
-		data-pswp-height={spawnwest1no.img.h}
-		target="_blank"
-		rel="noreferrer"
-	>
-		<enhanced:img
-			src={spawnwest1}
-			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
-		></enhanced:img>
-	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
 	<a
 		href={spawnwest2no.img.src}
@@ -491,7 +384,7 @@
 	>
 		<enhanced:img
 			src={spawnwest2}
-			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
+			sizes="(min-width: 780px) 156px, (min-width: 680px) 127px, calc(23.61vw - 29px)"
 		></enhanced:img>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
@@ -504,7 +397,7 @@
 	>
 		<enhanced:img
 			src={spawnwest3}
-			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
+			sizes="(min-width: 780px) 156px, (min-width: 680px) 127px, calc(23.61vw - 29px)"
 		></enhanced:img>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
@@ -517,7 +410,7 @@
 	>
 		<enhanced:img
 			src={spawnwest4}
-			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
+			sizes="(min-width: 780px) 156px, (min-width: 680px) 127px, calc(23.61vw - 29px)"
 		></enhanced:img>
 	</a>
 	<!-- svelte-ignore a11y_consider_explicit_label -->
@@ -530,7 +423,7 @@
 	>
 		<enhanced:img
 			src={spawnwest5}
-			sizes="(min-width: 780px) 123px, (min-width: 680px) 99px, calc(18.89vw - 26px)"
+			sizes="(min-width: 780px) 156px, (min-width: 680px) 127px, calc(23.61vw - 29px)"
 		></enhanced:img>
 	</a>
 </div>
